@@ -10,7 +10,7 @@ You can use this library in your custom application or integrate it into activit
 installation for activiti-explorer
 ----------------------------------
 
-1. Download the jar file in the lib folder
+1. [Download the jar file] (https://github.com/lovromazgon/activiti-hashed-passwords/raw/master/lib/activiti-hashed-passwords-1.0.jar) in the lib folder
 2. Copy the jar file to the exploded activiti-explorer location ${activiti-explorer.war}/WEB-INF/lib
 3. Register the HashedUserManagerFactory in the processEngineConfiguration bean. Do this by adding the following lines to activiti-standalone-context.xml (located in ${activiti-explorer.war}/WEB-INF):
 
