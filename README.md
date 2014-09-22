@@ -14,7 +14,7 @@ installation for activiti-explorer
 2. Copy the jar file to the exploded activiti-explorer location ${activiti-explorer.war}/WEB-INF/lib
 3. Register the HashedUserManagerFactory in the processEngineConfiguration bean. Do this by adding the following lines to activiti-standalone-context.xml (located in ${activiti-explorer.war}/WEB-INF):
 
-...
+```
 <bean id="processEngineConfiguration" class="org.activiti.spring.SpringProcessEngineConfiguration">
 ...
   <property name="customSessionFactories">
@@ -24,4 +24,4 @@ installation for activiti-explorer
   </property>
 ...
 </bean>
-...
+```
