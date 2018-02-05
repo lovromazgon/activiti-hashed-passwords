@@ -1,7 +1,7 @@
 activiti-hashed-passwords
 =========================
 
-Plugin for activiti (http://activiti.org/) for storing user passwords as hash instead of plain text.
+Plugin for activiti v5 (http://activiti.org/) for storing user passwords as hash instead of plain text. The plugin is **incompatible with activiti v6**!
 
 With this plugin you can use the activiti identity service and not worry about password security. Passwords are hashed with PBKDF2 algorithm and combined with a salt, which is unique for every password. The hashing class is taken from crackstation (https://crackstation.net/hashing-security.htm).
 
